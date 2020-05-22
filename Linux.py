@@ -590,7 +590,6 @@ def pilih_super():
 #Dev:Babar_Ali
 	print '\033[1;91m•Process Has Been Completed•'
 	print"\033[1;94mTotal\033[1;92mOK/\x1b[1;91mCP \033[1;91m: \033[1;91m"+str(len(oks))+"\033[1;97m/\033[1;92m"+str(len(cekpoint))
- print"	\033[1;95m«-----------------\033[1;91mKalilinux\033[1;95m-----------------»"""
 	print """
              
 
