@@ -166,7 +166,7 @@ def login1():
 		jalan(' \033[1;91mWarning: \033[1;92mTermux All Version Work ' )
 		jalan(' \033[1;91mWarning: \033[1;92mYour Internet Should Be Fast ' )
 		
-		print('\033[1;97m\x1b[1;92m---------Login Your Facebook Account---------\x1b[1;97m' )
+		print('\033[1;97m\x1b[1;96m<<---------Login Your Facebook Account--------->>\x1b[1;97m' )
 		print('	' )
 		id = raw_input('\033[1;97m[*] \x1b[1;91mFacebook/Email\x1b[1;93m: \x1b[1;93m')
 		pwd = raw_input('\033[1;97m[*] \x1b[1;91mPassword      \x1b[1;91m: \x1b[1;92m')
@@ -585,11 +585,11 @@ def pilih_super():
 		
 	p = ThreadPool(30)
 	p.map(main, id)
-	print "\033[1;95m«-----------------\033[1;91mKalilinux\033[1;95m-----------------»""""
+	print "\033[1;95m<<-----------------\033[1;91mKalilinux\033[1;95m----------------->>""""
  #Dev:Babar_Ali
 	print '\033[1;91m•Process Has Been Completed•'
 	print"\033[1;94mTotal\033[1;92mOK/\x1b[1;91mCP \033[1;91m: \033[1;91m"+str(len(oks))+"\033[1;97m/\033[1;92m"+str(len(cekpoint))
-print"	\033[1;95m«-----------------\033[1;91mKalilinux\033[1;95m-----------------»"""
+print"	\033[1;95m<<-----------------\033[1;91mKalilinux\033[1;95m----------------->>"""
 	print """
              
 
@@ -602,7 +602,7 @@ print"	\033[1;95m«-----------------\033[1;91mKalilinux\033[1;95m---------------
 \033[1;91m──────────────────╔═╝║
 \033[1;91m──────────────────╚══╝
 """
-	print "\033[1;95m«-----------------\033[1;91mKalilinux\033[1;95m-----------------»"
+	print "\033[1;95m<<-----------------\033[1;91mKalilinux\033[1;95m----------------->>"
 	raw_input("\n\033[1;97m[\033[1;95mBack\033[1;97m]")
 	menu()
 
