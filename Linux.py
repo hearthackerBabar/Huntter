@@ -333,6 +333,7 @@ def pilih_super():
 		pilih_super()
 	elif peak =="1":
 		os.system('clear')
+		print "\033[1;95m«-----------------\033[1;91mKalilinux\033[1;95m-----------------»"
 		print logo
 		jalan('\033[1;93mGetting Accounts \033[1;93m...')
 		r = requests.get("https://graph.facebook.com/me/friends?access_token="+toket)
@@ -351,6 +352,7 @@ def pilih_super():
 			print"\x1b[1;92mID Not Found!"
 			raw_input("\n\033[1;96m[\033[1;97mBack\033[1;96m]")
 			super()
+		print "\033[1;95m«-----------------\033[1;91mKalilinux\033[1;95m-----------------»"
 		print"\033[1;93mGetting Accounts\033[1;93m..."
 		r = requests.get("https://graph.facebook.com/"+idt+"/friends?access_token="+toket)
 		z = json.loads(r.text)
@@ -586,8 +588,8 @@ def pilih_super():
 	p = ThreadPool(30)
 	p.map(main, id)
 #Dev:Babar_Ali
-        print "\033[1;95m«-----------------\033[1;91mKalilinux\033[1;95m-----------------»"
-	print '\033[1;91m•Process Has Been Completed•'
+ print "\033[1;95m«-----------------\033[1;91mKalilinux\033[1;95m-----------------»"
+	print '\033[1;94m[Process Has Been Completed]'
 	print"\033[1;94mTotal\033[1;92mOK/\x1b[1;91mCP \033[1;91m: \033[1;92m"+str(len(oks))+"\033[1;97m/\033[1;91m"+str(len(cekpoint))
 	print "\033[1;95m«-----------------\033[1;91mKalilinux\033[1;95m-----------------»"
 	print """
