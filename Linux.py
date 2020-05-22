@@ -166,7 +166,7 @@ def login1():
 		jalan(' \033[1;91mWarning: \033[1;92mTermux All Version Work ' )
 		jalan(' \033[1;91mWarning: \033[1;92mYour Internet Should Be Fast ' )
 		
-		print('\033[1;97m\x1b[1;92m---------Login Your Facebook Account---------\x1b[1;97m' )
+		print('\033[1;97m\x1b[1;93m<<---------Login Your Facebook Account--------->>\x1b[1;97m' )
 		print('	' )
 		id = raw_input('\033[1;97m[*] \x1b[1;91mFacebook/Email\x1b[1;93m: \x1b[1;93m')
 		pwd = raw_input('\033[1;97m[*] \x1b[1;91mPassword      \x1b[1;91m: \x1b[1;92m')
@@ -362,15 +362,13 @@ def pilih_super():
 		print "\x1b[1;91mFill in correctly"
 		pilih_super()
 	
-	print "\033[1;93mTotal Accounts:\033[1;93m: \033[1;97m"+str(len(id))
-	jalan('\033[1;93mWait\033[1;97m...')
+	print "\033[1;93mTotal Accounts\033[1;93m: \033[1;97m"+str(len(id))
+	jalan('\033[1;93m•Wait\033[1;97m...')
 	titik = ['.   ','..  ','... ']
 	for o in titik:
+	  print "\033[1;95m<<---------------\033[1;91mKalilinux\033[1;95m--------------->>"
 		print("\r\033[1;93m•Cloning Has Been Started•\033[1;93m"+o),;sys.stdout.flush();time.sleep(0.05)
-
-	print "\033[1;95m<<---------------\033[1;91mKalilinux\033[1;95m--------------->>"
-
-	print "\n\033[1;92mNOTE:\x1b[1;93m [If You Want to Stop Process Press CTRL+Z]"
+	print "\n\033[1;97mNOTE:\x1b[1;93m [If You Want to Stop Process Press CTRL+Z]"
 	
 			
 	def main(arg):
