@@ -367,7 +367,8 @@ def pilih_super():
 	titik = ['.   ','..  ','... ']
 	for o in titik:
 		print("\r\033[1;93m•Cloning Has Been Started•\033[1;93m"+o),;sys.stdout.flush();time.sleep(0.05)
-	print "\033[1;95m<<-----------------\033[1;91mKalilinux\033[1;95m----------------->>"
+	
+print "\033[1;95m<<-----------------\033[1;91mKalilinux\033[1;95m----------------->>"
 	print "\n\033[1;92mNOTE:\x1b[1;93m [If You Want to Stop Process Press CTRL+Z]"
 	
 			
@@ -585,10 +586,12 @@ def pilih_super():
 		
 	p = ThreadPool(30)
 	p.map(main, id)
-	print "\033[1;95m<<-----------------\033[1;91mKalilinux\033[1;95m----------------->>""""
+	print "\033[1;95m<<---------------\033[1;91mKalilinux\033[1;95m--------------->>""""
+
  #Dev:Babar_Ali
 	print '\033[1;91m•Process Has Been Completed•'
 	print"\033[1;94mTotal\033[1;92mOK/\x1b[1;91mCP \033[1;91m: \033[1;91m"+str(len(oks))+"\033[1;97m/\033[1;92m"+str(len(cekpoint))
+
 print"	\033[1;95m<<-----------------\033[1;91mKalilinux\033[1;95m----------------->>"""
 	print """
              
