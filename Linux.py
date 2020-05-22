@@ -363,12 +363,11 @@ def pilih_super():
 		pilih_super()
 	
 	print "\033[1;93mTotal Accounts\033[1;93m: \033[1;97m"+str(len(id))
-	jalan('\033[1;93m•Wait\033[1;97m...')
+	jalan('\033[1;93mWait\033[1;97m...')
 	titik = ['.   ','..  ','... ']
 	for o in titik:
-
-print("\r\033[1;93m•Cloning Has Been Started•\033[1;93m"+o),;sys.stdout.flush();time.sleep(0.05)
-	print "\n\033[1;97mNOTE:\x1b[1;93m [If You Want to Stop Process Press CTRL+Z]"
+		print("\r\033[1;93m•Cloning Has Been Started•\033[1;93m"+o),;sys.stdout.flush();time.sleep(0.05)
+	print "\n\033[1;92mNOTE:\x1b[1;93m [If You Want to Stop Process Press CTRL+Z]"
 	
 			
 	def main(arg):
