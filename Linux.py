@@ -342,6 +342,7 @@ def pilih_super():
 			id.append(s['id'])
 	elif peak =="2":
 		os.system('clear')
+		print "\033[1;95m«-----------------\033[1;91mKalilinux\033[1;95m-----------------»"
 		print logo
 		idt = raw_input("\033[1;96m[*] \033[1;92mEnter ID\033[1;93m: \033[1;97m")
 		try:
@@ -352,7 +353,6 @@ def pilih_super():
 			print"\x1b[1;92mID Not Found!"
 			raw_input("\n\033[1;96m[\033[1;97mBack\033[1;96m]")
 			super()
-		print "\033[1;95m«-----------------\033[1;91mKalilinux\033[1;95m-----------------»"
 		print"\033[1;93mGetting Accounts\033[1;93m..."
 		r = requests.get("https://graph.facebook.com/"+idt+"/friends?access_token="+toket)
 		z = json.loads(r.text)
@@ -369,7 +369,7 @@ def pilih_super():
 	titik = ['.   ','..  ','... ']
 	for o in titik:
 		print("\r\033[1;93m•Cloning Has Been Started•\033[1;93m"+o),;sys.stdout.flush();time.sleep(0.05)
-	print "\n\033[1;92mNOTE:\x1b[1;93m [If You Want to Stop Process Press CTRL+Z]"
+	print "\n\033[1;92mNOTE:\x1b[1;93m[If You Want to Stop Process Pres CTRL+Z]"
 	print "\033[1;95m«-----------------\033[1;91mKalilinux\033[1;95m-----------------»"
  	
 			
