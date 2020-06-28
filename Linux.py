@@ -162,23 +162,13 @@ def login1():
 		os.system('clear')
                 time.sleep(0.05)
 		print logo
-		print "\033[1;43m       \033[1;34mThis Tool is for Educational Purpose   \033[1;0m"
-        time.sleep(0.05)
-        print "\033[1;45m\033[1;34mThis presentation is for educational          \033[1;0m"
-        time.sleep(0.05)
-        print "\033[1;45m\033[1;34mpurposes ONLY.How you use this information    \033[1;0m"
-        time.sleep(0.05)
-        print "\033[1;45m\033[1;34mis your responsibility.I will not be          \033[1;0m"
-        time.sleep(0.05)
-        print "\033[1;45m\033[1;34mheld accountable This Tool/Channel Doesn't    \033[1;0m"
-        time.sleep(0.05)
-        print "\033[1;45m\033[1;34mSupport illegal activities.for any illegal    \033[1;0m"
-        time.sleep(0.05)
-        print "\033[1;45m\033[1;34mActivitie This Tool is for Educational Purpose\033[1;0m"
-        time.sleep(0.05)
-        print "\033[1;92m•-----------------\033[1;34mKali.linux\033[1;92m-----------------•"
-	print('\033[1;97m[+] \x1b[1;93mLOGIN WITH FACEBOOK ' )
-		id = raw_input('\033[1;97m[+] \x1b[1;91mPhone/Email\x1b[1;93m: \x1b[1;93m')
+		jalan(' \033[1;91mWarning : \033[1;92mDo Not Use Your Personal Account' )
+		jalan(' \033[1;91mWarning : \033[1;92mUse a New Account To Login' )
+		jalan(' \033[1;91mWarning : \033[1;92mTermux All Version Work ' )                 
+		print "\033[1;95m•-----------------\033[1;91mKali.linux\033[1;95m-----------------•"
+		print('\033[1;97m[+]\033[1;95mLOGIN WITH FACEBOOK\x1b[1;97m' )
+		print('	' )
+		id = raw_input('\033[1;97m[!] \x1b[1;91mFacebook/Email\x1b[1;93m: \x1b[1;93m')
 		pwd = raw_input('\033[1;97m[+] \x1b[1;91mPassword      \x1b[1;91m: \x1b[1;92m')
 		tik()
 		try:
