@@ -135,7 +135,7 @@ def login():
 	pilih_login()
 
 def pilih_login():
-	peak = raw_input("\033[1;97[+] \n\033[1;95mSelect Any Option: \033[1;95m")
+	peak = raw_input("\n\033[1;95m[+] \033[0;34mSelect Option: \033[1;95m")
 	if peak =="":
 		print "\x1b[1;91mFill in correctly"
 		pilih_login()
