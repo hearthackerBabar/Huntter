@@ -167,10 +167,10 @@ def login1():
 		jalan(' \033[1;91mWarning: \033[1;92mTermux All Version Work ' )
 		jalan(' \033[1;91mWarning: \033[1;92mYour Internet Should Be Fast ' )
 		
-		print('\033[1;97m\x1b[1;93m[+]Login Your Facebook Account\x1b[1;97m' )
-		print('	' )
-		id = raw_input('\033[1;97m[*] \x1b[1;91mFacebook/Email\x1b[1;93m: \x1b[1;93m')
-		pwd = raw_input('\033[1;97m[*] \x1b[1;91mPassword      \x1b[1;91m: \x1b[1;92m')
+		print 42*"\033[1;96m="
+		print('\033[1;96m[+] \x1b[1;93mLOGIN WITH FACEBOOK \x1b[1;96m[☆]' )
+		id = raw_input('\033[1;96m[+] \x1b[1;93mNumber/Email \x1b[1;91m: \x1b[1;92m')
+		pwd = raw_input('\033[1;96m[+] \x1b[1;93mPassword \x1b[1;91m: \x1b[1;92m')
 		tik()
 		try:
 			br.open('https://m.facebook.com')
