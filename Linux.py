@@ -100,7 +100,6 @@ And Continue
  """
 CorrectUsername = "kalilinux"
 CorrectPassword = "Facebook"
-
 loop = 'true'
 while (loop == 'true'):
     username = raw_input("\033[1;91m[+] \033[1;91m \x1b[1;91mTool Username \x1b[1;91m: \x1b[1;92m")
