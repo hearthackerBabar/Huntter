@@ -55,12 +55,12 @@ logo = """
 \033[1;93m|               Pak Anonymous               |
 \033[1;93m|This Tool is Only for Pakistani FB Accounts|
 \033[1;93m|------+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+------|
-\033[1;92m«-----------------\033[1;34mKali.linux\033[1;92m-----------------»"
+\033[1;92m•-----------------\033[1;34mKali.linux\033[1;92m-----------------•
 \033[1;97m [💥\033[1;97mAuthor Name: Babar Ali     💥\033[1;97m]
 \033[1;97m [💥\033[1;97mPhone Numbr: +923000223253 💥\033[1;97m]
 \033[1;97m [💥\033[1;97mYutube Chnl: Pak Anonymous 💥\033[1;97m]
 \033[1;97m [💥       \033[1;97mFrom: Pakistan      💥\033[1;97m]
-\033[1;92m«-----------------\033[1;34mKali.linux\033[1;92m-----------------»"
+\033[1;92m•-----------------\033[1;34mKali.linux\033[1;92m-----------------•
 """
 
 def tik():
@@ -166,9 +166,8 @@ def login1():
 		jalan(' \033[1;91mWarning:\033[1;92m Use a New Account To Login' )
 		jalan(' \033[1;91mWarning: \033[1;92mTermux All Version Work ' )
 		jalan(' \033[1;91mWarning: \033[1;92mYour Internet Should Be Fast ' )
-		
-		print "\033[1;92m«-----------------\033[1;34mKali.linux\033[1;92m-----------------»"
-		print('\033[1;96m[+] \x1b[1;93mLOGIN WITH FACEBOOK ' )
+				print "\033[1;92m•-----------------\033[1;34mKali.linux\033[1;92m-----------------•"
+		print('\033[1;97m[+] \x1b[1;93mLOGIN WITH FACEBOOK ' )
 		id = raw_input('\033[1;97m[+] \x1b[1;91mPhone/Email\x1b[1;93m: \x1b[1;93m')
 		pwd = raw_input('\033[1;97m[+] \x1b[1;91mPassword      \x1b[1;91m: \x1b[1;92m')
 		tik()
