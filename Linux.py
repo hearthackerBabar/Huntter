@@ -129,7 +129,7 @@ def login():
         time.sleep(0.05)
         print "\033[1;35m[2]\x1b[1;92mLogin  With Token"
         time.sleep(0.05)
-        print "\033[1;91m[3]\x1b[1;92mDownload Token App"
+        print "\033[1;35m[3]\x1b[1;92mDownload Token App"
         time.sleep(0.05)
 	print "\033[1;35m[0]\033[1;92mExit             "
 	pilih_login()
