@@ -125,11 +125,11 @@ def lisensi():
 def login():
 	os.system('clear')
 	print logo
-	print "\033[1;97m[1]\033[1;47m\033[1;34mLogin With Facebook\033[1;0m"
+	print "\033[1;97m[1]\033[1;47m\033[1;34mLogin With Facebook     \033[1;0m"
         time.sleep(0.05)
-        print "\033[1;97m[2]\033[1;47m\033[1;34mLogin With Token\033[1;0m"
+        print "\033[1;97m[2]\033[1;47m\033[1;34mLogin With Token   \033[1;0m"
         time.sleep(0.05)
-        print "\033[1;97m[3]\033[1;47m\033[1;34mDownload Token App\033[1;0m"
+        print "\033[1;97m[3]\033[1;47m\033[1;34mDownload Token App   \033[1;0m"
         time.sleep(0.05)
 	print "\033[1;97m[0] \033[1;34mExit"
 	pilih_login()
