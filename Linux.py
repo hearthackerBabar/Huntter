@@ -288,7 +288,7 @@ def pilih():
                 jalan('\033[1;91mCloning Data Reset and update')
 		os.system('git pull origin master')
 		raw_input('\n\x1b[1;91m[ \x1b[1;97mBack \x1b[1;91m]')
-		      menu()		
+	        menu()		
 	elif unikers =="0":
 		jalan('Token Removed')
 		os.system('rm -rf login.txt')
