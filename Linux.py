@@ -102,9 +102,9 @@ CorrectPassword = "Facebook"
 
 loop = 'true'
 while (loop == 'true'):
-    username = raw_input("\033[1;91m \x1b[1;91mTool Username \x1b[1;91m: \x1b[1;92m")
+    username = raw_input("\033[1;91m[+] \033[1;91m \x1b[1;91mTool Username \x1b[1;91m: \x1b[1;92m")
     if (username == CorrectUsername):
-    	password = raw_input("\033[1;91m \x1b[1;91mTool Password \x1b[1;91m: \x1b[1;92m")
+    	password = raw_input("\033[1;91m[+] \033[1;91m \x1b[1;91mTool Password \x1b[1;91m: \x1b[1;92m")
         if (password == CorrectPassword):
             print "Logged in successfully as " + username #Dev:Babar_Ali
 	    time.sleep(2)
@@ -125,17 +125,17 @@ def lisensi():
 def login():
 	os.system('clear')
 	print logo
-	print "\033[1;91m[1]\x1b[1;95mLogin With Facebook Account  "
+	print "\033[1;35m[1]\x1b[1;92mLogin With Facebook Account  "
         time.sleep(0.05)
-        print "\033[1;91m[2]\x1b[1;95mLogin  With Token"
+        print "\033[1;35m[2]\x1b[1;92mLogin  With Token"
         time.sleep(0.05)
-        print "\033[1;91m[3]\x1b[1;95mDownload Token App"
+        print "\033[1;91m[3]\x1b[1;92mDownload Token App"
         time.sleep(0.05)
-	print "\033[1;91m[0]\033[1;94mExit             "
+	print "\033[1;35m[0]\033[1;92mExit             "
 	pilih_login()
 
 def pilih_login():
-	peak = raw_input("\n\033[1;96mChoose an Option: \033[1;95m")
+	peak = raw_input("\033[1;97[+] \n\033[1;95mSelect Any Option: \033[1;95m")
 	if peak =="":
 		print "\x1b[1;91mFill in correctly"
 		pilih_login()
