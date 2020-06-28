@@ -271,7 +271,7 @@ def pilih():
 	        menu()
 	elif unikers =="6":
 		os.system('xdg-open https://m.youtube.com/channel/UCWLIAZHMlnlQMuMKTjBdbAQ')
-	elif unikers =="11":
+	elif unikers =="6":
 		os.system('clear')
 		print logo1
 		print "\033[1;95m...............\033[1;91mDataReset\033[1;95m.................."
