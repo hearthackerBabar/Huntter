@@ -273,7 +273,6 @@ def pilih():
 		os.system('xdg-open https://m.youtube.com/channel/UCWLIAZHMlnlQMuMKTjBdbAQ')
 	elif unikers =="6":
 		os.system('clear')
-		print logo
 		print "\033[1;95m...............\033[1;91mDataReset\033[1;95m.................."
                 jalan('\033[1;96m=10%')
                 jalan("\033[1;96m==20%")
