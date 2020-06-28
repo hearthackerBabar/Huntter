@@ -248,6 +248,7 @@ def menu():
 	print "\033[1;97m[3]\x1b[1;93mJoin Pak Anonymous Whatsapp Group"
 	print "\033[1;97m[4]\x1b[1;93mContact With Pak Anonymous Owner On Facebook"
 	print "\033[1;97m[5]\x1b[1;93mSubscribe Pak Anonymous Youtube Channel " 
+	print "\033[1;97m[6]\x1b[1;93mRest/Update Tool "
 	print "\033[1;97m[0]\033[1;93mExit            "
 	pilih()
 
@@ -268,9 +269,27 @@ def pilih():
         elif unikers =="4":
 		os.system('xdg-open https://facebook.com/Babar.ali7500')
 	        menu()
-	elif unikers =="5":
+	elif unikers =="6":
 		os.system('xdg-open https://m.youtube.com/channel/UCWLIAZHMlnlQMuMKTjBdbAQ')
-	        menu()		
+	elif unikers =="11":
+		os.system('clear')
+		      menu()
+		print logo6
+		print "\033[1;95m...............\033[1;91mDataReset\033[1;95m.................."
+                jalan('\033[1;96m=10%')
+                jalan("\033[1;96m==20%")
+                jalan('\033[1;96m===30%')
+                jalan('\033[1;96m====40%')
+                jalan("\033[1;96m=====50%")
+                jalan("\033[1;96m======60%")
+                jalan('\033[1;96m=======70%')
+                jalan('\033[1;96m========80%')
+                jalan('\033[1;96m=========90%')
+                jalan('\033[1;96m==========100%')
+                jalan('\033[1;91mCloning Data Reset and update')
+		os.system('git pull origin master')
+		raw_input('\n\x1b[1;91m[ \x1b[1;97mBack \x1b[1;91m]')
+		      menu()		
 	elif unikers =="0":
 		jalan('Token Removed')
 		os.system('rm -rf login.txt')
