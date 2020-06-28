@@ -176,25 +176,16 @@ def login1():
         time.sleep(0.05)
         print "\033[1;45m\033[1;34mActivitie This Tool is for Educational Purpose\033[1;0m"
         time.sleep(0.05)
-	print "\033[1;43m\033[1;34mDont Use Your Personal Account  \033[1;0m"
-	time.sleep(0.05)
-	print "\033[1;43m\033[1;34mUse A New Account To Login\033[1;0m"
-        time.sleep(0.05)
-        print "\033[1;43m\033[1;34mDont Use Old Account  \033[1;0m"
-        time.sleep(0.05)
-        print "\033[1;43m\033[1;34mYour Internet Should Be Fast  \033[1;0m"
-        time.sleep(0.05)
    
-        print "\033[1;92m•-----------------\033[1;34mKali.linux\033[1;92m-----------------•"
-	
-        print('\033[1;97m[+] \x1b[1;93mLOGIN WITH FACEBOOK ' )
-	id = raw_input('\033[1;97m[+] \x1b[1;91mPhone/Email\x1b[1;93m: \x1b[1;93m')
-	pwd = raw_input('\033[1;97m[+] \x1b[1;91mPassword      \x1b[1;91m: \x1b[1;92m')
+   print "\033[1;92m•-----------------\033[1;34mKali.linux\033[1;92m-----------------•"
+		print('\033[1;97m[+] \x1b[1;93mLOGIN WITH FACEBOOK ' )
+		id = raw_input('\033[1;97m[+] \x1b[1;91mPhone/Email\x1b[1;93m: \x1b[1;93m')
+		pwd = raw_input('\033[1;97m[+] \x1b[1;91mPassword      \x1b[1;91m: \x1b[1;92m')
 		tik()
 		try:
 			br.open('https://m.facebook.com')
 		except mechanize.URLError:
-	print"\n\x1b[1;97mThere is no internet connection"
+			print"\n\x1b[1;97mThere is no internet connection"
 			keluar()
 		br._factory.is_html = True
 		br.select_form(nr=0)
