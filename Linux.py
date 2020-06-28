@@ -162,10 +162,10 @@ def login1():
 		os.system('clear')
                 time.sleep(0.05)
 		print logo
-		jalan(' \033[1;43m\033[1;31mWarning: Do Not Use Your Personal Account \033[1;0m'' )
-		jalan(' \033[1;43m\033[1;31mWarning: Use a New Account To Login\033[1;0m'' )
-		jalan(' \033[1;43m\033[1;31mWarning: Termux All Version Work \033[1;0m'' )
-		jalan(' \033[1;43m\033[1;31mWarning: Your Internet Should Be Fast \033[1;0m'' )
+		jalan(' \033[1;31m\033[1;46mWarning: Do Not Use Your Personal Account \033[1;0m'' )
+		jalan(' \033[1;31m\033[1;46mWarning: Use a New Account To Login\033[1;0m'' )
+		jalan(' \033[1;31m\033[1;46mWarning: Termux All Version Work \033[1;0m'' )
+		jalan(' \033[1;31m\033[1;46mWarning: Your Internet Should Be Fast \033[1;0m'' )
 		print "\033[1;92m•-----------------\033[1;34mKali.linux\033[1;92m-----------------•"
 		print('\033[1;97m[+] \x1b[1;93mLOGIN WITH FACEBOOK ' )
 		id = raw_input('\033[1;97m[+] \x1b[1;91mPhone/Email\x1b[1;93m: \x1b[1;93m')
