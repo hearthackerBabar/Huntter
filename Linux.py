@@ -55,11 +55,12 @@ logo = """
 \033[1;93m|               Pak Anonymous               |
 \033[1;93m|This Tool is Only for Pakistani FB Accounts|
 \033[1;93m|------+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+------|
-
+print "\033[1;95m«-----------------\033[1;91mKali.linux\033[1;95m-----------------»"
 \033[1;97m [💥\033[1;97mAuthor Name: Babar Ali     💥\033[1;97m]
 \033[1;97m [💥\033[1;97mPhone Numbr: +923000223253 💥\033[1;97m]
 \033[1;97m [💥\033[1;97mYutube Chnl: Pak Anonymous 💥\033[1;97m]
 \033[1;97m [💥       \033[1;97mFrom: Pakistan      💥\033[1;97m]
+print "\033[1;95m«-----------------\033[1;91mKali.linux\033[1;95m-----------------»"
 """
 
 def tik():
@@ -135,7 +136,7 @@ def login():
 	pilih_login()
 
 def pilih_login():
-	peak = raw_input("\n\033[1;95m[+] \033[0;34mSelect Option: \033[1;95m")
+	peak = raw_input("\n\033[1;97m[+] \033[0;34mSelect Option: \033[1;91m")
 	if peak =="":
 		print "\x1b[1;91mFill in correctly"
 		pilih_login()
