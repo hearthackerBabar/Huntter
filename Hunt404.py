@@ -630,8 +630,8 @@ def pilih_super():
 	p.map(main, id)
 #Dev:Babar_Ali
         print "\033[1;92m«-----------------\033[1;34mKali.linux\033[1;92m-----------------»"
-	print '\033[1;94m[Process Has Been Completed]'
-	print"\033[1;94mTotal\033[1;92mOK/\x1b[1;91mCP \033[1;91m: \033[1;92m"+str(len(oks))+"\033[1;97m/\033[1;91m"+str(len(cekpoint))
+	print '\033[1;97m[+]\033[1;47m\033[1;31mProcess Has Been Completed\033[1;0m'
+	print"\033[1;97[+]\033[1;97mTotal\033[1;92mOK/\x1b[1;91mCP \033[1;91m: \033[1;92m"+str(len(oks))+"\033[1;97m/\033[1;91m"+str(len(cekpoint))
 	print "\033[1;92m«-----------------\033[1;34mKali.linux\033[1;92m-----------------»"
 	print """
 \033[1;97m ____               _____ ____
@@ -642,7 +642,7 @@ def pilih_super():
 \033[1;97m       |___/
 """
 	print "\033[1;92m«-----------------\033[1;34mKali.linux\033[1;92m-----------------»"
-	raw_input("\n\033[1;97m[\033[1;95mBack\033[1;97m]")
+	raw_input("\n\033[1;97m[+]\033[1;91mBack")
 	menu()
 
 if __name__ == '__main__':
