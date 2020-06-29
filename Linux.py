@@ -143,7 +143,7 @@ def pilih_login():
 	if peak =="":
 		print "\x1b[1;91mFill in correctly"
 		pilih_login()
-		elif peak =="1":
+	elif peak =="1":
 		Babarali()
 	elif peak =="2":
 		login1()
