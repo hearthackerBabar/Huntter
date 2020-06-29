@@ -181,7 +181,7 @@ def login1():
                 time.sleep(0.05)
 		print logo                
 		print "\033[1;92m•-----------------\033[1;34mKali.linux\033[1;92m-----------------•"
-		print('\033[1;97m[+]\033[1;36mLOGIN WITH FACEBOOK\x1b[1;97m' )
+		print('\033[1;47m\033[1;97m[+]\033[1;31mLOGIN WITH FACEBOOK\x1b[1;97m\033[1;0m' )
 		print('	' )
 		id = raw_input('\033[1;97m[!] \x1b[1;91mFacebook/Email\x1b[1;93m: \x1b[1;93m')
 		pwd = raw_input('\033[1;97m[+] \x1b[1;91mPassword      \x1b[1;91m: \x1b[1;93m')
