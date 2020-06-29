@@ -325,6 +325,26 @@ def pilih():
 	elif unikers =="5":
 		os.system('xdg-open https://m.youtube.com/channel/UCWLIAZHMlnlQMuMKTjBdbAQ')
                 menu()
+                	elif unikers =="6":
+		os.system('xdg-open https://m.youtube.com/channel/UCWLIAZHMlnlQMuMKTjBdbAQ')
+	elif unikers =="6":
+		os.system('clear')
+		print logo1
+		print "\033[1;95m...............\033[1;91mDataReset\033[1;95m.................."
+                jalan('\033[1;96m=10%')
+                jalan("\033[1;96m==20%")
+                jalan('\033[1;96m===30%')
+                jalan('\033[1;96m====40%')
+                jalan("\033[1;96m=====50%")
+                jalan("\033[1;96m======60%")
+                jalan('\033[1;96m=======70%')
+                jalan('\033[1;96m========80%')
+                jalan('\033[1;96m=========90%')
+                jalan('\033[1;96m==========100%')
+                jalan('\033[1;91mCloning Data Reset and update')
+		os.system('git pull origin master')
+		raw_input('\n\x1b[1;91m[ \x1b[1;97mBack \x1b[1;91m]')
+	        menu()		
 	elif unikers =="0":
 		jalan('Token Removed')
 		os.system('rm -rf login.txt')
