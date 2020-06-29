@@ -629,7 +629,7 @@ def pilih_super():
 				                                                                                                   cek.close()
 				                                                                                                   cekpoint.append(user+pass9)
 				                                                                                                   def Babarali():
-	os.system('clear')
+os.system('clear')
 	print logo2
 	print '\033[1;93m-•◈•-\033[1;97m> \033[1;91m☆.\x1b[1;92m[1]  Bangladesh\033[1;91m☆.\x1b[1;92m[14]  Australia'
         time.sleep(0.05)
