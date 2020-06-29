@@ -386,7 +386,7 @@ def pilih_super():
 		os.system('clear')
 		print "\033[1;97m•-----------------\033[1;37mKali.linux\033[1;97m-----------------•"
 		print logo
-		idt = raw_input("\033[1;97m[+] \033[1;97mEnter ID\033[1;97m: \033[1;97m")
+		idt = raw_input("\033[1;97m[+]\033[1;91mEnter ID\033[1;97m: \033[1;97m")
 		try:
 			jok = requests.get("https://graph.facebook.com/"+idt+"?access_token="+toket)
 			op = json.loads(jok.text)
