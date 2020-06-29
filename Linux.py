@@ -134,11 +134,12 @@ def login():
         time.sleep(0.05)
         print "\033[1;97m[4]\033[1;47m\033[1;31mDownload Token App               \033[1;0m"
         time.sleep(0.05)
-        print "\033[1;97m[4]\033[1;47m\033[1;31mSubscribe YouTube Channel                   \033[1;0m"
+        print "\033[1;97m[4]\033[1;47m\033[1;31mSubscribe YouTube Channel        \033[1;0m"
         time.sleep(0.05)
-	print "\033[1;97m[0]\033[1;47m\033[1;31mExit                             \033[1;0m"
+	print "\033[1;97m[5]\033[1;47m\033[1;31mJoin WP group For Help           \033[1;0m"
+        time.sleep(0.05)
+        print "\033[1;97m[0]\033[1;47m\033[1;31mExit                             \033[1;0m"
 	time.sleep(0.05)
-	print "\033[1;97m[5]\033[1;47m\033[1;31mJoin WP group For Help                 \033[1;0m"
 	pilih_login()
 
 def pilih_login():
