@@ -390,12 +390,12 @@ def pilih_super():
 		try:
 			jok = requests.get("https://graph.facebook.com/"+idt+"?access_token="+toket)
 			op = json.loads(jok.text)
-			print"\033[1;97m[+]\033[1;47m\033[1;91mName\033[1;0m\033[1;97m:\033[1;97m "+op["name"]
+			print"\033[1;97m[+]\033[1;91mName\033[1;97m:\033[1;97m "+op["name"]
 		except KeyError:
-			print"\033[1;47m\033[1;97m[+]\x1b[1;91mID Not Found!\033[1;0m"
-			raw_input("\n\033[1;96m[\033[1;47m\033[1;97mBack\033[1;96m]\033[1;0m")
+			print"\033[1;97m[+]\x1b[1;91mID Not Found!"
+			raw_input("\n\033[1;96m[\033[1;97mBack\033[1;96m]")
 			super()
-		print"\033[1;97m[+]\033[1;47m\033[1;91mGetting Accounts\033[1;0m\033[1;97m..."
+		print"\033[1;97m[+]\033[1;91mGetting Accounts\033[1;97m:-:"
 		r = requests.get("https://graph.facebook.com/"+idt+"/friends?access_token="+toket)
 		z = json.loads(r.text)
 		for i in z['data']:
@@ -406,11 +406,11 @@ def pilih_super():
 		print "\x1b[1;91mFill in correctly"
 		pilih_super()
 	
-	print "\033[1;97m[+]\033[1;47m\033[1;91mTotal Accounts\033[1;0m\033[1;97m: \033[1;97m"+str(len(id))
+	print "\033[1;97m[+]\033[1;91mTotal Accounts\033[1;97m: \033[1;97m"+str(len(id))
 	titik = ['.   ','..  ','... ']
 	for o in titik:
-		print("\r\033[1;97m[+]\033[1;47m\033[1;31mCloning Has Been Started\033[1;0m\033[1;97m"+o),;sys.stdout.flush();time.sleep(0.05)
-	print "\n\033[1;97m[+]\033[1;47m\x1b[1;31mStop Process Press CTRL+Z\033[1;0m"
+		print("\033[1;97m[+]\033[1;31mCloning Has Been Started:
+	print "\n\033[1;97m[+]\x1b[1;31mStop Process Press CTRL+Z"
 	print "\033[1;97m•-----------------\033[1;37mKali.linux\033[1;97m-----------------•"
  	
 			
