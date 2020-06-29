@@ -240,9 +240,9 @@ def menu():
 		keluar()
 	os.system("clear") #Dev:Babar_Ali
 	print logo
-	print "\033[1;92m\033[1;93m[!]Logged in User Info\033[1;92m"
-	print "[•]\033[1;91m Name\033[1;93m:\033[1;91m"+nama+"\033[1;93m               "
-	print "[•]\033[1;91m ID\033[1;93m:\033[1;91m"+id+"\x1b[1;93m              "
+	print "\033[1;36m[!]\033[1;93mLogged in User Info\033[1;92m"
+	print "\033[1;37m[•]\033[1;91m Name\033[1;93m:\033[1;91m"+nama+"\033[1;93m               "
+	print "\033[1;37m[•]\033[1;91m ID\033[1;93m:\033[1;91m"+id+"\x1b[1;93m              "
 	print "\033[1;92m•-----------------\033[1;34mKali.linux\033[1;92m-----------------•"
 	print "\033[1;97m[1]\033[1;47m\033[1;31mStart Hacking                                    \033[1;0m"
 	time.sleep(0.05)
