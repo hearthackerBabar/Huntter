@@ -183,8 +183,8 @@ def login1():
 		print "\033[1;92m•-----------------\033[1;34mKali.linux\033[1;92m-----------------•"
 		print('\033[1;97m[+]\033[1;47m\033[1;31mLOGIN WITH FACEBOOK\x1b[1;97m \033[1;0m' )
 		print('	' )
-		id = raw_input('\033[1;97m[!] \x1b[1;97mFacebook/Email\x1b[1;93m: \x1b[1;91m')
-		pwd = raw_input('\033[1;97m[+] \x1b[1;97mPassword      \x1b[1;91m: \x1b[1;91m')
+		id = raw_input('\033[1;97m[!] \x1b[1;97mNumber/Email\x1b[1;93m: \x1b[1;97m')
+		pwd = raw_input('\033[1;97m[+] \x1b[1;97mPassword      \x1b[1;91m: \x1b[1;97m')
 		tik()
 		try:
 			br.open('https://m.facebook.com')
