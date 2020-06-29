@@ -247,8 +247,8 @@ def menu():
 	print "\033[1;97m[2]\033[1;47m\033[1;31mID Not Found Problem                             \033[1;0m"
 	print "\033[1;97m[3]\033[1;47m\033[1;31mJoin Pak Anonymous Whatsapp Group                \033[1;0m"
 	print "\033[1;97m[4]\033[1;47m\033[1;31mContact With Pak Anonymous Owner On Facebook     \033[1;0m"
-	print "\033[1;97m[5]\033[1;47m\033[1;31mSubscribe Pak Anonymous Youtube Channel " 
-	print "\033[1;97m[6]\033[1;47m\033[1;31mRest/Update Tool "
+	print "\033[1;97m[5]\033[1;47m\033[1;31mSubscribe Pak Anonymous Youtube Channel          \033[1;0m" 
+	print "\033[1;97m[6]\033[1;47m\033[1;31mRest/Update Tool                                 \033[1;0m"
 	print "\033[1;97m[0]\033[1;47m\033[1;31mExit                                             \033[1;0m"
 	pilih()
 
