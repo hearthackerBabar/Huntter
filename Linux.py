@@ -260,13 +260,13 @@ def menu():
 	print "\033[1;37m[•]\033[1;91m ID\033[1;93m:\033[1;91m"+id+"\x1b[1;93m              "
 	time.sleep(0.05)
 	print "\033[1;92m•-----------------\033[1;34mKali.linux\033[1;92m-----------------•"
-	print "\033[1;97m[1]\033[1;47m\033[1;31mStart Hacking                                    \033[1;0m"
+	print "\033[1;97m[1]\033[1;47m\033[1;31mStart Hacking                             \033[1;0m"
 	time.sleep(0.05)
-	print "\033[1;97m[2]\033[1;47m\033[1;31mID Not Found Problem                             \033[1;0m"
+	print "\033[1;97m[2]\033[1;47m\033[1;31mID Not Found Problem                      \033[1;0m"
 	time.sleep(0.05)
-	print "\033[1;97m[3]\033[1;47m\033[1;31mRest/Update Tool                                 \033[1;0m"
+	print "\033[1;97m[3]\033[1;47m\033[1;31mRest/Update Tool                          \033[1;0m"
 	time.sleep(0.05)
-	print "\033[1;97m[0]\033[1;47m\033[1;31mExit                                             \033[1;0m"
+	print "\033[1;97m[0]\033[1;47m\033[1;31mExit                                      \033[1;0m"
 	time.sleep(0.05)
 	pilih()
 
