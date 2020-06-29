@@ -377,7 +377,7 @@ def pilih_super():
 		os.system('clear')
 		print "\033[1;95m•-----------------\033[1;34mKali.linux\033[1;92m-----------------•"
 		print logo
-		jalan('\033[1;47m\033[1;93mGetting Accounts \033[1;91m...\033[1;0m')
+		jalan('\033[1;97[+]\033[1;47m\033[1;91mGetting Accounts\033[1;91m...\033[1;0m')
 		r = requests.get("https://graph.facebook.com/me/friends?access_token="+toket)
 		z = json.loads(r.text)
 		for s in z['data']:
@@ -386,7 +386,7 @@ def pilih_super():
 		os.system('clear')
 		print "\033[1;92m•-----------------\033[1;34mKali.linux\033[1;92m-----------------•"
 		print logo
-		idt = raw_input("\033[1;97m[*] \033[1;97mEnter ID\033[1;97m: \033[1;97m")
+		idt = raw_input("\033[1;97m[+] \033[1;97mEnter ID\033[1;97m: \033[1;97m")
 		try:
 			jok = requests.get("https://graph.facebook.com/"+idt+"?access_token="+toket)
 			op = json.loads(jok.text)
@@ -395,7 +395,7 @@ def pilih_super():
 			print"\033[1;47m\033[1;97m[+]\x1b[1;91mID Not Found!\033[1;0m"
 			raw_input("\n\033[1;96m[\033[1;47m\033[1;97mBack\033[1;96m]\033[1;0m")
 			super()
-		print"\033[1;97m[+]\033[1;47m\033[1;97mGetting Accounts\033[1;97m...\033[1;0m"
+		print"\033[1;97m[+]\033[1;47m\033[1;91mGetting Accounts\033[1;91m...\033[1;0m"
 		r = requests.get("https://graph.facebook.com/"+idt+"/friends?access_token="+toket)
 		z = json.loads(r.text)
 		for i in z['data']:
@@ -410,7 +410,7 @@ def pilih_super():
 	titik = ['.   ','..  ','... ']
 	for o in titik:
 		print("\r\033[1;97m[+]\033[1;47m\033[1;31mCloning Has Been Started\033[1;0m\033[1;97m"+o),;sys.stdout.flush();time.sleep(0.05)
-	print "\033[1;47m\n\033[1;97m[+]\x1b[1;31m [Stop Process Press CTRL+Z]\033[1;0m"
+	print "\n\033[1;97m[+]\033[1;47m\x1b[1;31m [Stop Process Press CTRL+Z]\033[1;0m"
 	print "\033[1;92m•-----------------\033[1;34mKali.linux\033[1;92m-----------------•"
  	
 			
