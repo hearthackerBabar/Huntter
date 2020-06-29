@@ -71,7 +71,7 @@ logo = """
 \033[1;41m\033[1;37m[⚡⚡\033[1;37mYutube Chnl: Pak Anonymous ⚡⚡\033[1;37m]\033[1;0m
 \033[1;41m\033[1;37m[⚡⚡       \033[1;37mFrom: Pakistan      ⚡⚡\033[1;37m]\033[1;0m
 
-\033[1;92m•-----------------\033[1;37mKali.linux\033[1;92m-----------------•
+\033[1;97m•-----------------\033[1;37mKali.linux\033[1;97m-----------------•
 """
 
 def tik():
@@ -105,8 +105,8 @@ print  """
 \033[1;97m  \_/\___|_| /__/_\___/_||_|  \__(_)___(_)_|
 \033[1;97m•───────────────────────────────────────────•
  """
-CorrectUsername = "V2KLX"
-CorrectPassword = "FACEBOOK"
+CorrectUsername = "Facebook"
+CorrectPassword = "Huntter"
 
 loop = 'true'
 while (loop == 'true'):
@@ -642,7 +642,7 @@ def pilih_super():
 \033[1;97m       |___/
 """
 	print "\033[1;97m«-----------------\033[1;37mKali.linux\033[1;97m-----------------»"
-	raw_input("\n\033[1;97m[+]\033[1;91mBack")
+	raw_input("\n\033[1;97m[+]\033[1;47m\033[1;91mBack\033[1;0m")
 	menu()
 
 if __name__ == '__main__':
