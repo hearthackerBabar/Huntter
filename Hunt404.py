@@ -406,12 +406,12 @@ def pilih_super():
 		print "\x1b[1;91mFill in correctly"
 		pilih_super()
 	
-	print "\033[1;97m[+]\033[1;47m\033[1;91mTotal Accounts\033[1;93m: \033[1;0m\033[1;97m"+str(len(id))
+	print "\033[1;97m[+]\033[1;47m\033[1;91mTotal Accounts\033[1;0m\033[1;97m: \033[1;97m"+str(len(id))
 	titik = ['.   ','..  ','... ']
 	for o in titik:
 		print("\r\033[1;97m[+]\033[1;47m\033[1;31mCloning Has Been Started\033[1;0m\033[1;97m"+o),;sys.stdout.flush();time.sleep(0.05)
 	print "\n\033[1;97m[+]\033[1;47m\x1b[1;31m [Stop Process Press CTRL+Z]\033[1;0m"
-	print "\033[1;97m•-----------------\033[1;34mKali.linux\033[1;97m-----------------•"
+	print "\033[1;97m•-----------------\033[1;31mKali.linux\033[1;97m-----------------•"
  	
 			
 	def main(arg):
