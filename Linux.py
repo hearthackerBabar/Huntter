@@ -261,13 +261,7 @@ def menu():
 	time.sleep(0.05)
 	print "\033[1;97m[2]\033[1;47m\033[1;31mID Not Found Problem                             \033[1;0m"
 	time.sleep(0.05)
-	print "\033[1;97m[3]\033[1;47m\033[1;31mJoin Pak Anonymous Whatsapp Group                \033[1;0m"
-	time.sleep(0.05)
-	print "\033[1;97m[4]\033[1;47m\033[1;31mContact With Pak Anonymous Owner On Facebook     \033[1;0m"
-	time.sleep(0.05)
-	print "\033[1;97m[5]\033[1;47m\033[1;31mSubscribe Pak Anonymous Youtube Channel          \033[1;0m"
-	time.sleep(0.05)
-	print "\033[1;97m[6]\033[1;47m\033[1;31mRest/Update Tool                                 \033[1;0m"
+	print "\033[1;97m[3]\033[1;47m\033[1;31mRest/Update Tool                                 \033[1;0m"
 	time.sleep(0.05)
 	print "\033[1;97m[0]\033[1;47m\033[1;31mExit                                             \033[1;0m"
 	time.sleep(0.05)
@@ -285,14 +279,6 @@ def pilih():
 		os.system('xdg-open https://commentpicker.com/find-facebook-id.php')
 	        menu()
 	elif unikers =="3":
-		os.system('xdg-open https://chat.whatsapp.com/FlzjJ1wklTo3EvKtkSfwRZ')
-	        menu()
-        elif unikers =="4":
-		os.system('xdg-open https://facebook.com/Babar.ali7500')
-	        menu()
-	elif unikers =="6":
-		os.system('xdg-open https://m.youtube.com/channel/UCWLIAZHMlnlQMuMKTjBdbAQ')
-	elif unikers =="6":
 		os.system('clear')
 		print logo
 		print "\033[1;95m...............\033[1;91mDataReset\033[1;95m.................."
@@ -327,18 +313,7 @@ def pilih():
 	elif unikers =="2":
 		os.system('xdg-open https://commentpicker.com/find-facebook-id.php')
 	        menu()
-        elif unikers =="3":
-		os.system('xdg-open https://chat.whatsapp.com/FlzjJ1wklTo3EvKtkSfwRZ')
-	        menu()
-        elif unikers =="4":
-		os.system('xdg-open https://facebook.com/Babar.ali7500')
-	        menu()
-	elif unikers =="5":
-		os.system('xdg-open https://m.youtube.com/channel/UCWLIAZHMlnlQMuMKTjBdbAQ')
-                menu()
-        elif unikers =="6":
-		os.system('xdg-open https://m.youtube.com/channel/UCWLIAZHMlnlQMuMKTjBdbAQ')
-	elif unikers =="6":
+	elif unikers =="3":
 		os.system('clear')
 		print logo
 		print "\033[1;95m...............\033[1;91mDataReset\033[1;95m.................."
