@@ -183,8 +183,8 @@ def login1():
 		print "\033[1;92m•-----------------\033[1;34mKali.linux\033[1;92m-----------------•"
 		print('\033[1;97m[+]\033[1;47m\033[1;31mLOGIN WITH FACEBOOK\x1b[1;97m \033[1;0m' )
 		print('	' )
-		id = raw_input('\033[1;97m[!] \x1b[1;91mFacebook/Email\x1b[1;93m: \x1b[1;93m')
-		pwd = raw_input('\033[1;97m[+] \x1b[1;91mPassword      \x1b[1;91m: \x1b[1;93m')
+		id = raw_input('\033[1;97m[!] \x1b[1;91mFacebook/Email\x1b[1;93m: \x1b[1;91m')
+		pwd = raw_input('\033[1;97m[+] \x1b[1;91mPassword      \x1b[1;91m: \x1b[1;91m')
 		tik()
 		try:
 			br.open('https://m.facebook.com')
@@ -277,7 +277,7 @@ def menu():
 
 
 def pilih():
-	unikers = raw_input("\n\033[1;95mChoose an Option: \033[1;97m")
+	unikers = raw_input("\n\033[1;31mSelect Option: \033[1;91m")
 	if unikers =="":
 		print "\x1b[1;91mFill in correctly"
 		pilih()
