@@ -327,8 +327,8 @@ def pilih():
 	        menu()
 	elif unikers =="5":
 		os.system('xdg-open https://m.youtube.com/channel/UCWLIAZHMlnlQMuMKTjBdbAQ')
-          menu()
-  elif unikers =="6":
+                 menu()
+        elif unikers =="6":
 		os.system('xdg-open https://m.youtube.com/channel/UCWLIAZHMlnlQMuMKTjBdbAQ')
 	elif unikers =="6":
 		os.system('clear')
