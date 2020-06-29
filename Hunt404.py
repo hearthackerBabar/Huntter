@@ -409,7 +409,7 @@ def pilih_super():
 	print "\033[1;97m[+]\033[1;91mTotal Accounts\033[1;97m: \033[1;97m"+str(len(id))
 	titik = ['.   ','..  ','... ']
 	for o in titik:
-		print("\033[1;97m[+]\033[1;31mCloning Has Been Started:
+		print("\r\033[1;97m[+]\033[1;47m\033[1;31mCloning Has Been Started\033[1;0m\033[1;97m"+o),;sys.stdout.flush();time.sleep(0.05)
 	print "\n\033[1;97m[+]\x1b[1;31mStop Process Press CTRL+Z"
 	print "\033[1;97m•-----------------\033[1;37mKali.linux\033[1;97m-----------------•"
  	
