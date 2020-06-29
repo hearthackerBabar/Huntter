@@ -128,7 +128,6 @@ def lisensi():
 def login():
 	os.system('clear')
 	print logo
-	print "\033[1;97m[1]\033[1;47m\033[1;31m1_7 Fast Cloning               \033[1;0m"
 	print "\033[1;97m[2]\033[1;47m\033[1;31mLogin With Facebook              \033[1;0m"
         time.sleep(0.05)
         print "\033[1;97m[3]\033[1;47m\033[1;31mLogin With Token                 \033[1;0m"
@@ -143,13 +142,11 @@ def pilih_login():
 	if peak =="":
 		print "\x1b[1;91mFill in correctly"
 		pilih_login()
-		elif peak =="1":
-		Babarali()
-	elif peak =="2":
+	elif peak =="1":
 		login1()
-        elif peak =="3":
+        elif peak =="2":
 	        token()
-        elif peak =="4":
+        elif peak =="3":
 	        os.system('xdg-open https://m.apkpure.com/get-access-token/com.proit.thaison.getaccesstokenfacebook/download/1-APK?from=versions%2Fversion')
 	        login()
 	elif peak =="0":
@@ -286,7 +283,7 @@ def pilih():
 		os.system('xdg-open https://m.youtube.com/channel/UCWLIAZHMlnlQMuMKTjBdbAQ')
 	elif unikers =="6":
 		os.system('clear')
-		print logo1
+		print logo
 		print "\033[1;95m...............\033[1;91mDataReset\033[1;95m.................."
                 jalan('\033[1;96m=10%')
                 jalan("\033[1;96m==20%")
@@ -332,7 +329,7 @@ def pilih():
 		os.system('xdg-open https://m.youtube.com/channel/UCWLIAZHMlnlQMuMKTjBdbAQ')
 	elif unikers =="6":
 		os.system('clear')
-		print logo1
+		print logo
 		print "\033[1;95m...............\033[1;91mDataReset\033[1;95m.................."
                 jalan('\033[1;96m=10%')
                 jalan("\033[1;96m==20%")
