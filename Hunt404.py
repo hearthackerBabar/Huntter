@@ -377,7 +377,7 @@ def pilih_super():
 		os.system('clear')
 		print "\033[1;95m•-----------------\033[1;34mKali.linux\033[1;92m-----------------•"
 		print logo
-		jalan('\033[1;97[+]\033[1;47m\033[1;91mGetting Accounts\033[1;91m...\033[1;0m')
+		jalan('\033[1;97m[+]\033[1;47m\033[1;91mGetting Accounts\033[1;91m...\033[1;0m')
 		r = requests.get("https://graph.facebook.com/me/friends?access_token="+toket)
 		z = json.loads(r.text)
 		for s in z['data']:
@@ -630,8 +630,8 @@ def pilih_super():
 	p.map(main, id)
 #Dev:Babar_Ali
         print "\033[1;92m«-----------------\033[1;34mKali.linux\033[1;92m-----------------»"
-	print '\033[1;97m[+]\033[1;47m\033[1;31mProcess Has Been Completed\033[1;0m'
-	print"\033[1;97[+]\033[1;97mTotal\033[1;92mOK/\x1b[1;91mCP \033[1;91m: \033[1;92m"+str(len(oks))+"\033[1;97m/\033[1;91m"+str(len(cekpoint))
+	print '\033[1;97m[+]\033[1;47m \033[1;31mProcess Has Been Completed\033[1;0m'
+	print"\033[1;97m[+]\033[1;97mTotal \033[1;97mOK/\x1b[1;97mCP \033[1;97m: \033[1;97m"+str(len(oks))+"\033[1;97m/\033[1;97m"+str(len(cekpoint))
 	print "\033[1;92m«-----------------\033[1;34mKali.linux\033[1;92m-----------------»"
 	print """
 \033[1;97m ____               _____ ____
