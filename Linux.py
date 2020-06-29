@@ -254,8 +254,11 @@ def menu():
 	os.system("clear") #Dev:Babar_Ali
 	print logo
 	print "\033[1;37m[!]\033[1;93m Logged in User Info\033[1;92m"
+	time.sleep(0.05)
 	print "\033[1;37m[•]\033[1;91m Name\033[1;93m:\033[1;91m"+nama+"\033[1;93m               "
+	time.sleep(0.05)
 	print "\033[1;37m[•]\033[1;91m ID\033[1;93m:\033[1;91m"+id+"\x1b[1;93m              "
+	time.sleep(0.05)
 	print "\033[1;92m•-----------------\033[1;34mKali.linux\033[1;92m-----------------•"
 	print "\033[1;97m[1]\033[1;47m\033[1;31mStart Hacking                                    \033[1;0m"
 	time.sleep(0.05)
@@ -353,8 +356,11 @@ def super():
 	os.system('clear')
 	print logo
 	print "\033[1;97m[1]\x1b[1;93mHack From Friend List"
+	time.sleep(0.05)
 	print "\033[1;97m[2]\x1b[1;93mHack From Public Accounts"
+	time.sleep(0.05)
 	print "\033[1;97m[0]\033[1;95mBack"
+	time.sleep(0.05)
 	pilih_super()
 
 def pilih_super():
