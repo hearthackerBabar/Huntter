@@ -105,8 +105,8 @@ print  """
 \033[1;97m  \_/\___|_| /__/_\___/_||_|  \__(_)___(_)_|
 \033[1;97m•───────────────────────────────────────────•
  """
-CorrectUsername = "kalilinux"
-CorrectPassword = "Facebook"
+CorrectUsername = "V2KLX"
+CorrectPassword = "FACEBOOK"
 
 loop = 'true'
 while (loop == 'true'):
