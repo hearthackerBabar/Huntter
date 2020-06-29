@@ -136,7 +136,7 @@ def login():
 	pilih_login()
 
 def pilih_login():
-	peak = raw_input("\n\033[1;97m[+] \033[0;34mSelect Option: \033[1;91m")
+	peak = raw_input("\n\033[1;97m[+] \033[0;31mSelect Option: \033[1;91m")
 	if peak =="":
 		print "\x1b[1;91mFill in correctly"
 		pilih_login()
@@ -243,13 +243,13 @@ def menu():
 	print "  \033[1;92m\033[1;93m⚡⚡Logged in User Info\033[1;92m⚡⚡"
 	print "	   \033[1;91m Name\033[1;93m:\033[1;91m"+nama+"\033[1;93m               "
 	print "	   \033[1;91m ID\033[1;93m:\033[1;91m"+id+"\x1b[1;93m              "
-	print "\033[1;97m[1]\x1b[1;93mStart Hacking"
-	print "\033[1;97m[2]\x1b[1;93mID Not Found Problem"
-	print "\033[1;97m[3]\x1b[1;93mJoin Pak Anonymous Whatsapp Group"
-	print "\033[1;97m[4]\x1b[1;93mContact With Pak Anonymous Owner On Facebook"
-	print "\033[1;97m[5]\x1b[1;93mSubscribe Pak Anonymous Youtube Channel " 
-	print "\033[1;97m[6]\x1b[1;93mRest/Update Tool "
-	print "\033[1;97m[0]\033[1;93mExit            "
+	print "\033[1;97m[1]\033[1;47m\033[1;31mStart Hacking \033[1;0m"
+	print "\033[1;97m[2]\033[1;47m\033[1;31mID Not Found Problem \033[1;0m"
+	print "\033[1;97m[3]\033\033[1;31mJoin Pak Anonymous Whatsapp Group \033[1;0m"
+	print "\033[1;97m[4]\033[1;47m\033[1;31mContact With Pak Anonymous Owner On Facebook \033[1;0m"
+	print "\033[1;97m[5]\033[1;47m\033[1;31mSubscribe Pak Anonymous Youtube Channel " 
+	print "\033[1;97m[6]\033[1;47m\033[1;31mRest/Update Tool "
+	print "\033[1;97m[0]\033[1;47m\033[1;31mExit             \033[1;0m"
 	pilih()
 
 
@@ -269,10 +269,11 @@ def pilih():
         elif unikers =="4":
 		os.system('xdg-open https://facebook.com/Babar.ali7500')
 	        menu()
-	elif unikers =="5":
+	elif unikers =="6":
 		os.system('xdg-open https://m.youtube.com/channel/UCWLIAZHMlnlQMuMKTjBdbAQ')
 	elif unikers =="6":
 		os.system('clear')
+		print logo1
 		print "\033[1;95m...............\033[1;91mDataReset\033[1;95m.................."
                 jalan('\033[1;96m=10%')
                 jalan("\033[1;96m==20%")
