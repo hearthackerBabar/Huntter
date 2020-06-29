@@ -51,18 +51,18 @@ def jalan(z):
 #Dev:Babar_Ali
 ##### LOGO #####
 logo = """
-print (c+fore3+"     o        o       o            o")
-	print (c+fore3+"      o      o          o        o")
-	print (c+fore3+"       0 ■■ 0             0 ■■ 0")
-	print (c+fore3+"       ■■■■■■ Kali.linux ■■■■■■")
-	print (c+fore3+"      ■■"+fore1+"▣"+fore3+"■■"+fore1+"▣"+fore3+"■■           ■■"+fore2+"◉"+fore3+"■■"+fore2+"◉"+fore3+"■■")
-	print (c+fore3+"     ■■■■■■■■■■         ■■■■■■■■■■")
-	print (c+fore3+"  ■■ ■■■■■■■■■■ ■■   ■■ ■■■■■■■■■■ ■■")
-	print (c+fore3+"  ■■ ■■■■■■■■■■  ■■ ■■  ■■■■■■■■■■ ■■")
-	print (c+fore3+"  ■■ ■■■■■■■■■■   ■■■   ■■■■■■■■■■ ■■")
-	print (c+fore3+"     ■■■■■■■■■■         ■■■■■■■■■■")
-	print (c+fore3+"       ■■  ■■ Babar Ali ■■  ■■")
-	print (c+fore3+"       ■■  ■■ 03000223253 ■■  ■■")
+\033[1;91m   o        o             o            o
+\033[1;91m    o      o                o        o
+\033[1;91m     0 ■■ 0                  0 ■■ 0
+\033[1;91m      ■■■■■  HeartHacker    ■■■■■
+\033[1;91m     ■▣■■▣■■              ■■■■◉■■
+\033[1;91m    ■■■■■■■■            ■■■■■■■■■
+\033[1;91m■■ ■■■■■■■■■ ■■   ■■  ■■■■■■■■■■ ■■
+\033[1;91m■■ ■■■■■■■■■  ■■ ■■   ■■■■■■■■■■ ■■
+\033[1;91m■■ ■■■■■■■■■   ■■■    ■■■■■■■■■■ ■■
+\033[1;91m    ■■■■■■■■             ■■■■■■■■
+\033[1;91m	  ■■  ■■    Babar Ali     ■■  ■■
+\033[1;91m	  ■■  ■■   03000223253    ■■  ■■
 \033[1;93m|-------+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-----|
 \033[1;93m|               Pak Anonymous               |
 \033[1;93m|This Tool is Only for Pakistani FB Accounts|
@@ -370,11 +370,11 @@ def super():
 		login()
 	os.system('clear')
 	print logo
-	print "\033[1;97m[1]\x1b[1;93mHack From Friend List"
+	print "\033[1;97m[1]\033[1;47m\033[1;91mHack From Friend List \033[1;0m"
 	time.sleep(0.05)
-	print "\033[1;97m[2]\x1b[1;93mHack From Public Accounts"
+	print "\033[1;97m[2]\033[1;47m\033[1;91mHack From Public Account \033[1;0m"
 	time.sleep(0.05)
-	print "\033[1;97m[0]\033[1;95mBack"
+	print "\033[1;97m[0]\033[1;47m\033[1;91mBack\033[1;0m"
 	time.sleep(0.05)
 	pilih_super()
 
@@ -385,7 +385,7 @@ def pilih_super():
 		pilih_super()
 	elif peak =="1":
 		os.system('clear')
-		print "\033[1;95m«-----------------\033[1;91mKalilinux\033[1;95m-----------------»"
+		print "\033[1;95m«-----------------\033[1;91mKali.linux\033[1;95m-----------------»"
 		print logo
 		jalan('\033[1;93mGetting Accounts \033[1;93m...')
 		r = requests.get("https://graph.facebook.com/me/friends?access_token="+toket)
@@ -394,7 +394,7 @@ def pilih_super():
 			id.append(s['id'])
 	elif peak =="2":
 		os.system('clear')
-		print "\033[1;95m«-----------------\033[1;91mKalilinux\033[1;95m-----------------»"
+		print "\033[1;95m«-----------------\033[1;91mKali.linux\033[1;95m-----------------»"
 		print logo
 		idt = raw_input("\033[1;96m[*] \033[1;92mEnter ID\033[1;93m: \033[1;97m")
 		try:
@@ -422,7 +422,7 @@ def pilih_super():
 	for o in titik:
 		print("\r\033[1;93m•Cloning Has Been Started•\033[1;93m"+o),;sys.stdout.flush();time.sleep(0.05)
 	print "\n\033[1;92mNOTE:\x1b[1;93m [If You Want to Stop Process Press CTRL+Z]"
-	print "\033[1;95m«-----------------\033[1;91mKalilinux\033[1;95m-----------------»"
+	print "\033[1;95m«-----------------\033[1;91mKali.linux\033[1;95m-----------------»"
  	
 			
 	def main(arg):
@@ -640,10 +640,10 @@ def pilih_super():
 	p = ThreadPool(30)
 	p.map(main, id)
 #Dev:Babar_Ali
-        print "\033[1;95m«-----------------\033[1;91mKalilinux\033[1;95m-----------------»"
+        print "\033[1;95m«-----------------\033[1;91mKali.linux\033[1;95m-----------------»"
 	print '\033[1;94m[Process Has Been Completed]'
 	print"\033[1;94mTotal\033[1;92mOK/\x1b[1;91mCP \033[1;91m: \033[1;92m"+str(len(oks))+"\033[1;97m/\033[1;91m"+str(len(cekpoint))
-	print "\033[1;95m«-----------------\033[1;91mKalilinux\033[1;95m-----------------»"
+	print "\033[1;95m«-----------------\033[1;91mKali.linux\033[1;95m-----------------»"
 	print """
              
 
@@ -656,7 +656,7 @@ def pilih_super():
 \033[1;96m──────────────────╔═╝║
 \033[1;96m──────────────────╚══╝
 """
-	print "\033[1;95m«-----------------\033[1;91mKalilinux\033[1;95m-----------------»"
+	print "\033[1;95m«-----------------\033[1;91mKali.linux\033[1;95m-----------------»"
 	raw_input("\n\033[1;97m[\033[1;95mBack\033[1;97m]")
 	menu()
 
