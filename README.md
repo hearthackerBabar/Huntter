@@ -1,5 +1,3 @@
-# kali.linux
-
 pkg update
 
 pkg upgrade
@@ -14,13 +12,13 @@ pip2 install requests
 
 pip2 install mechanize
 
-git clone https://github.com/hearthackerBabar/kali.linux/
+git clone https://github.com/hearthackerBabar/Huntter/
 
-cd kali.linux
+cd Huntter
 
-python2 Linux.py
+python2 Hunt404.py
 
-Tool username:(kalilinux)
-Tool password:(Facebook)
+Tool username:(Facebook)
+Tool password:(Huntter)
 
-Whatsapp Number: +923000223253
+Whatsapp Number : 03000223253
