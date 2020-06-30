@@ -19,6 +19,7 @@ cd Huntter
 python2 Hunt404.py
 
 username:(Facebook)
+
 password:(Huntter)
 
 Whatsapp Number : 03000223253
