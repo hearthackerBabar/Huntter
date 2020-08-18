@@ -50,7 +50,7 @@ def jalan(z):
 def tokenz():
 	os.system('clear')
 	print logo
-	toket = raw_input("\033[1;97m[+] \033[1;97mToken \033[1;97m:\033[1;47m\033[1;91mEAAAAUaZA8jlABAEfblPMEJIo7fZAWVi6dcTGHvodT9PjoGYOFZBkNzg9Xv4pV3gXdZAUgZC91EOlhMCoNuEyPtuZAM8ZAF26hYp2Bg1OtFz27Pl28lINLEjhHPpyi1UExtsgidUBAiZC0rzdiwRCITw0mmbOyGZAuyVtBtveOW0amYlZBzo0YOiZAhRrJhZAh7Wa1p0ZD\033[1;0m            \033[1;97m                [+] Copy Token And Paste Below️                             \033[1;97m[+] Token :")
+	toket = raw_input("\033[1;97m[+] Token :")
 	try:
 		otw = requests.get('https://graph.facebook.com/me?access_token='+toket)
 		a = json.loads(otw.text)
