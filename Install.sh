@@ -66,7 +66,7 @@ def phone():
 		os.system('rm -rf login.txt')
 		time.sleep(1)
 		login()
-	os.system('clear')		
+			
 
 #Dev:Babar_Ali
 ##### LOGO #####
