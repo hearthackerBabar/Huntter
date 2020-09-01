@@ -109,8 +109,7 @@ listgrup = []
 vulnot = "\033[31mNot Vuln"
 vuln = "\033[32mVuln"
 
-kali linux.system("clear")
-
+kali linux("clear")
 print  """
 \033[1;97m#     #  #####        #    # #       #     #
 \033[1;97m#     # #     #       #   #  #        #   #
