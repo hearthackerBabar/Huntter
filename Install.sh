@@ -147,8 +147,6 @@ while (loop == 'true'):
 ##### LICENSE #####
 #=================#
 def lisensi():
-	kali linux.system("clear")
-	login()
 ####login#########
 def login():
 	os.system('clear')
