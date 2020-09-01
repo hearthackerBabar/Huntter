@@ -147,6 +147,8 @@ while (loop == 'true'):
 ##### LICENSE #####
 #=================#
 def lisensi():
+
+	login()
 ####login#########
 def login():
 	os.system('clear')
